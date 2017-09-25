@@ -1,0 +1,79 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+html,body{
+  background-color: grey;
+  height: 100%;
+}
+
+/* navbar styling */
+  nav { 
+    background : none;
+    float:right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align:center;
+    width:100%;
+}
+
+#services-page{
+  padding-top: 150px;
+}
+
+/*styling for footer*/
+footer{
+ background-color: black !important;
+  padding-top: 7px;
+  height: 250px;
+}
+.title-footer{
+  padding-bottom: 25px;
+}
+.footer{
+  padding-bottom: 10px; 
+  padding-top: 30px;
+}
+.copyright{
+  padding-top: 10px;
+  padding-bottom: 7px;
+  background-color: black !important;
+}
+
+.header-footer{
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.text-footer{
+  text-align: center;
+  text-indent: 15px;
+}
+
+#footer-info{
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding-bottom: 10px;
+}
+
+/* styling for parallax container*/
+#home-parallax{
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-image: url(../imgs/parallax-1.png);
+  background-attachment: fixed;
+}
+
+/*styling for info home*/
+#home-info{
+  text-align: left;
+  padding-bottom: 90px;
+  padding-top: 50px;
+}
+
+.home-text{
+  text-indent: 25;
+}
